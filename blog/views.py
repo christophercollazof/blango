@@ -1,6 +1,7 @@
+"Views"
+import logging
 from django.shortcuts import render, redirect, get_object_or_404
 from django.utils import timezone
-import logging
 from blog.models import Post
 from blog.forms import CommentForm
 
